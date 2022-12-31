@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Donations from './pages/Donations'
 import Completion from './pages/Completion'
 import Edtech from './pages/Edtech'
+import UserSignIn from './pages/UserSignIn'
 
 function App() {
 
@@ -17,9 +18,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/donate" element={<Donations />} />
-          <Route path="/completion" element={<Completion />} />
-          <Route path="/edtech" element={<Edtech />} />
-
+          <Route exact path="/edtech" element={<Edtech />} />
+          <Route exact path="/completion" element={<Completion />} />
 
           {/* protected routes */}
           {/* <Route element={<Routeguard />}>
@@ -27,8 +27,8 @@ function App() {
               <Route exact path="/editprofile" element={<Editprofile />} />
 
             </Route> */}
-        </Routes>
-      </Router>
+        </Routes >
+      </Router >
 
 
 
