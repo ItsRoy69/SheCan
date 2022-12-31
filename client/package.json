@@ -15,7 +15,6 @@
     "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
     "react-router-dom": "^6.6.1",
     "vite-plugin-svgr": "^2.2.2"
   },
