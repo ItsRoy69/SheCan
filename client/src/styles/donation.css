@@ -1,0 +1,104 @@
+.donate_header {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+.donate_headertextdiv {
+  /* width: 70%; */
+  max-width: 65%;
+}
+
+.donate_header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 1.5rem !important;
+  color: #a87ff3;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.donate_header p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  width: 80%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.donate_banner {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.donate_clubsparent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.donateclub {
+  max-width: 18rem;
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  padding-top: 10px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.donatelogo {
+  max-width: 18rem;
+  max-height: 13rem;
+  margin-bottom: 20px;
+}
+
+.donateclub_textdiv {
+  padding: 1rem;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donateclub_textdiv p:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.donateclub_location {
+  position: absolute;
+  bottom: -10px;
+  text-align: center;
+  min-width: 18rem;
+  font-style: italic;
+}
+
+.donateclub_location span {
+  font-style: normal;
+}
+
+.modal {
+  backdrop-filter: blur(3px);
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
