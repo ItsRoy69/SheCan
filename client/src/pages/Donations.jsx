@@ -6,6 +6,9 @@ import { ReactComponent as Donatelogo } from '../assets/donatepage/shecanlogo.sv
 import Donatemodal from '../components/Donatemodal';
 
 const Donations = () => {
+
+    const [club, setClub] = React.useState(womenEmpowermentClubs[0]);
+
     return (
         <>
             <div className="container donate_mainparent">
@@ -27,25 +30,29 @@ const Donations = () => {
 
                     <div className="donate_clubsparent">
 
-                        {womenEmpowermentClubs.map(club => (
+                        {womenEmpowermentClubs.map(item => (
 
                             <>
-                                <div className="donateclub" data-bs-toggle="modal" data-bs-target={`#${club.slug}`}>
+                                <div className="donateclub" data-bs-toggle="modal" data-bs-target={`#one`} onClick={() => {
+                                    setClub(item);
+                                }} >
                                     <Donatelogo className="donatelogo" />
 
                                     <div className="donateclub_textdiv">
-                                        <p> {club.name} </p>
-                                        <p> {club.tagline} </p>
+                                        <p> {item.name} </p>
+                                        <p> {item.tagline} </p>
                                     </div>
 
-                                    <p className='donateclub_location'> <span>📍</span> {club.location} </p>
+                                    <p className='donateclub_location'> <span>📍</span> {item.location} </p>
                                 </div>
 
-                                <Donatemodal club={club} />
+
 
                             </>
 
                         ))}
+
+                        {club && <Donatemodal club={club} />}
 
                     </div>
                 </div>
