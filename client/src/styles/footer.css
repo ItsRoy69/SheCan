@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.footer-bod{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+  /* color: white; */
+  background-color: #332433;
+}
+.p1{
+    font-size: 25px;
+}
+.p2{
+    margin-top: 10px;
+}
+.foot-in{
+    display: flex;
+}
+.footbtn{
+ border: none;
+}
+input{
+    outline: none;
+    border: none;
+    width: 40vw;
+    background-color: #332433;
+    border: 1px solid #A77EA7;
+    padding: 10px;
+
+}
+.footbtn{
+    font-size: 20px;
+    /* border: 1px solid #A77EA7; */
+    padding: 10px 20px;
+    background-color: #F78BD1;
+    color: #FFFFFF;
+
+}
+::placeholder {
+    color:#A77EA7;
+    opacity: 1; /* Firefox */
+  }
+  input, select, textarea{
+    color: #A77EA7;
+}
+
+textarea:focus, input:focus {
+    color: #A77EA7;
+}
+.foot-head{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #F7EBF3
+}
+.foot-head p{
+   font-size: 25px;
+}
+.dl{
+    width: 20vw;
+    border-top: 0.5px solid #F7EBF3;
+}
+.foot-btm{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #F7EBF3;
+}
+.foot-btm p{
+    cursor: pointer;
+
+}
+.foot-btm p:hover{
+    color: #F78BD1;
+}
