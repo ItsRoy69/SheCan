@@ -20,6 +20,11 @@ const Donations = () => {
                         <Donatebanner className="donate_banner" />
                     </div>
 
+                    <div className='donate_header2'>
+                        <p>Clubs you can donate to</p>
+                        <hr />
+                    </div>
+
                     <div className="donate_clubsparent">
 
                         {womenEmpowermentClubs.map(club => (

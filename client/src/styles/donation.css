@@ -37,6 +37,23 @@
   max-height: 400px;
 }
 
+.donate_header2 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #a87ff3;
+  font-size: 1.5rem;
+}
+
+.donate_header2 hr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  height: 0.5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.826);
+}
+
 .donate_clubsparent {
   display: flex;
   flex-wrap: wrap;
