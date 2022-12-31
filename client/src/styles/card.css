@@ -1,0 +1,49 @@
+.card_mainparent {
+  max-width: 15rem;
+  max-height: 21rem;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.756);
+  min-height: 21rem;
+}
+
+.card_img {
+  max-width: 15rem;
+  min-width: 15rem;
+  max-height: 8rem;
+  min-height: 8rem;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card_textdiv {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.card_textdivsub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  min-height: 148px;
+  max-height: 148px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card_textdivsub2 p:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.card_textdivsub2 p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.card_textdiv .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
