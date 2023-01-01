@@ -1,5 +1,7 @@
 /* font-family: "Montserrat", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+
 .navbod{
     display: flex;
     justify-content: space-between;
@@ -8,6 +10,7 @@
     width: 100%;
     background-color:#322332 ;
     color: white;
+    position: fixed;
 }
 .navleft{
     font-family: 'Island Moments';
@@ -18,144 +21,16 @@
 .navright{
     margin-right: 60px;
     display: flex;
-    gap: 20px;
+    text-align: center;
 }
 .navright p{
     cursor: pointer;
     font-size: 1.1rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Imprima';
+    font-style: normal;
+    padding: 20px;
+    padding-top: 30px;
 }
 .navright p:hover{
   color: #F78BD1;
-}
-.home-bod-first{
-    padding: 50px;
-    display: flex ;
-    justify-content:space-evenly ;
-    background-color: #F7EBF3;
-    font-family: "Montserrat", sans-serif;
-}
-.hfl{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.hfl{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.cl{
-    
-}
-.ph{
-    width: 40vw;
-    font-size: 20px
-}
-.hh{
-    font-size: 40px;
-   font-weight: 700 ;
-    width: 40vw;
-    font-family: "Montserrat", sans-serif;
-
-
-}
-.btn{
-    width: 10vw;
-    background-color: #F78BD1;
-    color: white;
-    padding: 10px;
-    border: 2px solid black;
-}
-.btn:hover{
-    background-color: white;
-    color: #F78BD1;
-}
-.hfr{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.hfr img{
-    height: 500px;
-    width: 350px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-    border-radius: 40% 40% 0 0;
-}
-.hfr2 img{
-    height: 300px;
-    width: 300px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-    border-radius: 50% 64% 0 0;
-}
-.hfr3 img{
-    height: 500px;
-    width: 350px;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
-    border-radius: 40% 40% 0 0;
-}
-.cline{
-    width: 42vw;
-    margin-left: -40px;
-}
-.home-bod-second{
-    padding:70px 50px;
-    display: flex ;
-    flex-direction: column;
-   align-items: center;
-    justify-content:center ;
-    background-color: #F7EBF3;
-    font-family: "Montserrat", sans-serif;
-}
-.hs{
-    padding-bottom: 10px;
-    font-weight: 500;
-    border-bottom: 4px solid black;
-
-}
-.hss{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 60px;
-
-}
-.hss-card{
-    width: 20vw;
-    height: 350px;
-    display:flex ;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    
-}
-.hss-card img{
-    width: 20vw;
-   height:  200px;
-    
-}
-.bl1{
-    margin-top: 20px;
-    width: 18vw;
-    font-size: 1.1rem;
-    color: #5F475F;;
-    text-align: center;
-}
-.bl{
-    cursor: pointer;
-    font-weight: 500;
-    text-align: center;
-     font-size: 1.1rem;
-    color: #F78BD1;
-    padding-bottom: 10px;
-    border-bottom:1px solid #F78BD1 ;
-}
-.bl:hover{
-    padding: 10px;
-    border:1px solid #F78BD1 ;
 }

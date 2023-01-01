@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
+
+
+.home-bod-first {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7EBF3;
+    font-family: 'Fahkwang';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hfl {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+    margin-top: 20vh;
+    width: 40vw;
+}
+
+.hfl img {
+    width: 300px;
+    height: auto;
+    margin-left: 0.51vw;
+    margin-top: 0vh;
+}
+
+.ph {
+    width: 40vw;
+    font-size: 20px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hh {
+    font-size: 40px;
+    font-weight: 700;
+    width: 35vw;
+    font-family: 'Fahkwang';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btn {
+    width: 10vw;
+    background: #F78BD1;
+    border: 1px solid #372837;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #F78BD1;
+    border: 1px solid #372837;
+}
+
+.hfr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hfr img {
+    height: auto;
+    width: 580px;
+    margin-top: 6vh;
+}
+
+.cline {
+    width: 42vw;
+    margin-left: -40px;
+}
+
+.home-bod-second {
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7EBF3;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hs {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-family: 'Fahkwang';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hss {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+
+.hss-card {
+    width: 20vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.hss-card img {
+    width: 20vw;
+    height: 200px;
+
+}
+
+.bl1 {
+    font-family: 'Fahkwang';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 5vh;
+}
+
+.bl {
+    cursor: pointer;
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #F78BD1;
+    padding: 10px;
+    border-bottom: 1px solid #F78BD1;
+    font-family: 'Fahkwang';
+    font-style: normal;
+}
+
+.bl:hover {
+    padding: 10px;
+    border: 1px solid #F78BD1;
+    
+}
+
+.home-bod-sec{
+    display: flex;
+    flex-direction: row;
+    background-color: #F7EBF3;
+    justify-content: space-between;
+}
+
+.hfr3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hfl-def {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    width: 40vw;
+}
+
+.hfr2 img {
+    
+    margin: 5vh;
+}
