@@ -10,6 +10,7 @@
     /* gap: 30px; */
     /* color: white; */
     background-color: #332433;
+    font-family: 'Fahkwang';
 }
 
 .p1 {
@@ -77,23 +78,26 @@ input:focus {
 }
 
 .dl {
-    width: 20vw;
-    border-top: 0.5px solid #F7EBF3;
+    width: 40vw;
+    border: 1px solid #F7EBF3;
+    transform: rotate(180deg);
 }
 
 .foot-btm {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     font-size: 20px;
     margin-top: 40px;
     color: #F7EBF3;
 }
 
-.foot-btm p {
+.foot-btm a {
     cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
 
 }
 
-.foot-btm p:hover {
+.foot-btm a:hover {
     color: #F78BD1;
 }

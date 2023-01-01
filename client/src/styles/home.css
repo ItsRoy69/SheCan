@@ -87,10 +87,13 @@
 
 .hs {
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(270deg, rgba(52, 37, 52, 0.5) 16.67%, #342534 51.04%, rgba(52, 37, 52, 0.5) 81.77%);
+    border-image-slice: 1;
     font-family: 'Fahkwang';
     font-style: normal;
     font-weight: 400;
+    
 }
 
 .hss {

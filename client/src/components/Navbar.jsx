@@ -10,13 +10,12 @@ export default function () {
         <img src={logo} alt="" />
       </div>
       <div className="navright">
-        <p>Home</p>
-        <p>Services</p>
-        <p>Donate</p>
-        <p>FAQs</p>
-        <p>My Account</p>
-        <p>Join Us</p>
-        <p>My Cart</p>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#services">Donate</a>
+        <a href="#services">FAQs</a>
+        <a href="#services">My Account</a>
+        <a href="#services">Join Us</a>
       </div>
     </div>
   );

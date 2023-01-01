@@ -28,7 +28,7 @@ const Home = () => {
           <img src={img1} alt="" />
         </div>
       </div>
-      <div className="home-bod-second">
+      <div className="home-bod-second" id="services">
         <h1 className="hs">Services We Provide</h1>
         <div className="hss">
           <div className="hss-card">

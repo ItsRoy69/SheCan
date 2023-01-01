@@ -21,12 +21,12 @@ function Footer() {
         <div className="dl"></div>
       </div>
       <div className="foot-btm">
-        <p>Home</p>
-        <p>Services</p>
-        <p>Donate</p>
-        <p>FAQs</p>
-        <p>My Account</p>
-        <p>Join Us</p>
+        <a href="#services">Home</a>
+        <a href="#services">Services</a>
+        <a href="#services">Donate</a>
+        <a href="#services">FAQs</a>
+        <a href="#services">My Account</a>
+        <a href="#services">Join Us</a>
       </div>
     </div>
   );
