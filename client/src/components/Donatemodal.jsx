@@ -13,7 +13,7 @@ const DonateModal = ({ club }) => {
                     <div className="modal-body">
 
 
-                        {/* <Payment /> */}
+                        <Payment />
 
 
                     </div>
