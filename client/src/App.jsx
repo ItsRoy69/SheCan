@@ -4,6 +4,8 @@ import Donations from './pages/Donations'
 import Completion from './pages/Completion'
 import Edtech from './pages/Edtech'
 import UserSignIn from './pages/UserSignIn'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,7 +16,7 @@ function App() {
 
 
       <Router>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/donate" exact element={<Donations />} />
@@ -28,6 +30,7 @@ function App() {
 
             </Route> */}
         </Routes >
+        <Footer />
       </Router >
 
 

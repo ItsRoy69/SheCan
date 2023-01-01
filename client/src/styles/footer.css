@@ -95,6 +95,8 @@ input:focus {
     cursor: pointer;
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Imprima';
+    font-style: normal;
 
 }
 

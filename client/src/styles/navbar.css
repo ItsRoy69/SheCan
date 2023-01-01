@@ -1,7 +1,6 @@
 /* font-family: "Montserrat", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
 
-
 .navbod{
     display: flex;
     justify-content: space-between;
@@ -11,6 +10,7 @@
     background-color:#322332 ;
     color: white;
     position: fixed;
+    z-index: 1
 }
 .navleft{
     font-family: 'Island Moments';
@@ -19,7 +19,7 @@
     font-family: cursive;
 }
 .navright{
-    margin-right: 60px;
+    margin-right: 145px;
     display: flex;
     text-align: center;
 }

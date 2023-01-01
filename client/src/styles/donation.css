@@ -1,58 +1,58 @@
+.donate{
+  background-color: #F7EBF3;
+  padding-top: 30vh;
+}
+
 .donate_header {
   display: flex;
-  margin-top: 5rem;
   justify-content: space-between;
+  height: 65vh;
 }
 
 .donate_headertextdiv {
   /* width: 70%; */
   max-width: 65%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
 }
 
 .donate_header h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
-  margin-bottom: 1.5rem !important;
-  color: #a87ff3;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
+  font-size: 40px;
+  font-weight: 700;
+  width: 35vw;
+  font-family: 'Fahkwang';
+  font-style: normal;
 }
 
 .donate_header p {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  font-size: 1.4rem;
-  line-height: 1.8;
-  letter-spacing: 1px;
-  width: 80%;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
+  width: 40vw;
+  font-size: 20px;
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 400;
 }
 
 .donate_banner {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 300px;
 }
 
 .donate_header2 {
   width: 50%;
   margin: auto;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #a87ff3;
+  font-family: 'Fahkwang';
+  font-style: normal;
+  font-weight: 400;
+  color: #322332;
   font-size: 1.5rem;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(270deg, rgba(52, 37, 52, 0.5) 16.67%, #342534 51.04%, rgba(52, 37, 52, 0.5) 81.77%);
+  border-image-slice: 1;
 }
 
-.donate_header2 hr {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 1rem;
-  height: 0.5px;
-  border: 0.5px solid rgba(0, 0, 0, 0.826);
-}
 
 .donate_clubsparent {
   display: flex;
@@ -61,6 +61,7 @@
   margin-top: 5rem;
   justify-content: center;
 }
+
 .donateclub {
   max-width: 18rem;
   background-color: rgba(240, 248, 255, 0.756);
@@ -68,8 +69,10 @@
   margin-bottom: 3rem;
   padding-top: 10px;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fahkwang';
+  font-style: normal;
   cursor: pointer;
+  z-index: 0;
 }
 
 .donatelogo {
@@ -105,7 +108,8 @@
 
 .modal {
   backdrop-filter: blur(3px);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fahkwang';
+  font-style: normal;
 }
 
 .modal-title {

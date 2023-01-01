@@ -1,18 +1,16 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
 import "../styles/navbar.css";
 import img1 from "../images/image1.png";
 import img2 from "../images/cline.png";
 import img3 from "../images/child.png";
 import img4 from "../images/self-def.png";
-import Footer from "../components/Footer";
 
 import "../styles/home.css";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div className="home-bod-first">
         <div className="hfl">
           <p className="hh">Your One-stop Solution To every Problem</p>
@@ -22,7 +20,9 @@ const Home = () => {
             their life. Be it tech, medicines, health or consulting doctors, we
             have you covered !
           </p>
-          <button className="btn">Get Started</button>
+          <a href="#services">
+            <button className="btns">Get Started</button>
+          </a>
         </div>
         <div className="hfr">
           <img src={img1} alt="" />
@@ -37,11 +37,11 @@ const Home = () => {
               alt=""
             />
             <p className="bl1">
-              <b>Pharmacies, Clinics & Medical Supplies</b>
+              <b> Pharmacies & Other Supplies </b>
             </p>
-            <p className="bl">
+            <a className="bl" href="/edtech">
               <b> Explore your needs</b>
-            </p>
+            </a>
           </div>
           <div className="hss-card">
             <img
@@ -51,9 +51,9 @@ const Home = () => {
             <p className="bl1">
               <b>Consult with doctors & gynecologists</b>
             </p>
-            <p className="bl">
-              <b> Explore your needs</b>
-            </p>
+            <a className="bl" href="/edtech">
+              <b> Get online consultation</b>
+            </a>
           </div>
           <div className="hss-card">
             <img
@@ -63,9 +63,10 @@ const Home = () => {
             <p className="bl1">
               <b>Education, Technology & Empowerment</b>
             </p>
-            <p className="bl">
-              <b> Explore your needs</b>
-            </p>
+
+            <a className="bl" href="/edtech">
+              <b> Check upcoming events</b>
+            </a>
           </div>
         </div>
       </div>
@@ -77,7 +78,7 @@ const Home = () => {
           <p className="hh">Making Your Safety a Priority</p>
 
           <p className="ph">Self defense techniques and helpline numbers</p>
-          <button className="btn">Learn How</button>
+          <button className="btns">Learn How</button>
         </div>
       </div>
       <div className="home-bod-first">
@@ -87,13 +88,14 @@ const Home = () => {
           <p className="ph">
             Donations for senior citizens, widows and orphans
           </p>
-          <button className="btn">Donate</button>
+          <a href="/donate">
+            <button className="btns">Donate</button>
+          </a>
         </div>
         <div className="hfr2">
           <img src={img3} alt="" />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
