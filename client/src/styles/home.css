@@ -13,9 +13,9 @@
 .hfl {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     justify-content: space-around;
-    margin-top: 20vh;
+    margin-top: 40vh;
     width: 40vw;
 }
 
@@ -67,8 +67,8 @@
 
 .hfr img {
     height: auto;
-    width: 580px;
-    margin-top: 6vh;
+    width: 500px;
+    margin-top: 16vh;
 }
 
 .cline {
