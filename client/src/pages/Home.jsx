@@ -81,7 +81,7 @@ const Home = () => {
           <button className="btns">Learn How</button>
         </div>
       </div>
-      <div className="home-bod-first">
+      <div className="home-bod-last">
         <div className="hfl-def">
           <p className="hh">Lend a Helping Hand</p>
 

@@ -1,4 +1,4 @@
-.edtech{
+.edtech {
   background-color: #F7EBF3;
   padding-top: 20vh;
 }
@@ -29,7 +29,7 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
-  margin-bottom: 20px;    
+  margin-bottom: 20px;
 }
 
 .newscard_textdiv p {
@@ -103,11 +103,15 @@
   width: 50%;
   margin: auto;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #a87ff3;
+  font-family: 'Fahkwang';
+  font-style: normal;
+  font-weight: 400;
+  color: #322332;
   font-size: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(270deg, rgba(52, 37, 52, 0.5) 16.67%, #342534 51.04%, rgba(52, 37, 52, 0.5) 81.77%);
+  border-image-slice: 1;
+  margin-bottom: 5rem;
 }
 
 .edtech_header2 hr {
@@ -124,4 +128,42 @@
   justify-content: center;
   gap: 2.5rem;
   padding: 3rem;
+}
+
+@media (max-width: 430px) and (min-width: 0px) {
+  .edtech_header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+  }
+
+  .edtech_headertextdiv {
+    height: 10vh;
+    margin-top: 0vh;
+    max-width: 400px;
+    justify-content: none;
+    align-items: center;
+  }
+
+  .edtech_header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 400px;
+    padding: 20px;
+  }
+
+  .edtech_header p {
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .edtech_banner {
+    max-width: 300px;
+    max-height: 200px;
+  }
 }

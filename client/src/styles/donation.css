@@ -123,3 +123,42 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 430px) and (min-width: 0px) {
+  .donate_header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    margin-bottom: 5vh;
+  }
+
+  .donate_headertextdiv {
+    height: 10vh;
+    margin-top: 0vh;
+    max-width: 400px;
+    justify-content: none;
+    align-items: center;
+  }
+
+  .donate_header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 400px;
+    padding: 20px;
+  }
+
+  .donate_header p {
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .donate_banner {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
