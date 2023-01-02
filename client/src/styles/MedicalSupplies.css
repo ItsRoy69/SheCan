@@ -1,0 +1,136 @@
+.med_mainparent {
+  padding-top: 20vh;
+}
+
+.meds_heroheader {
+  font-family: "Fahkwang";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meds_heroheader img {
+  max-width: 450px;
+  min-width: 450px;
+}
+
+.meds_heroheader_textdiv {
+  width: 50%;
+}
+
+.meds_heroheader_textdiv h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.meds_heroheader_textdiv p {
+  width: 60%;
+  font-size: 20px;
+}
+
+.meds_trendingheader {
+  font-family: "Fahkwang";
+  margin-top: 10vh;
+}
+
+.meds_trendingheader h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+.products_bar {
+  background-color: #322332;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-height: 70px;
+  min-height: 70px;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+.products_bar p {
+  margin-bottom: 0px;
+}
+
+.howtoorder_header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5vh;
+}
+
+.products_orderheader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10vh;
+  font-family: "Fahkwang";
+}
+
+.products_stepcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_stepcard p {
+  margin-bottom: 0px !important;
+  font-size: 20px;
+}
+.products_stepcard :nth-child(1) {
+  font-size: 30px !important;
+  margin-right: 10px;
+}
+
+.products_lineimg {
+  max-height: 3px;
+}
+
+.products_orderheader :nth-child(3) {
+  max-width: 60px;
+  min-height: 3px;
+}
+.products_orderheader :nth-child(5) {
+  max-width: 60px;
+  min-height: 3px;
+}
+
+.searchbox_parent {
+  width: 50%;
+}
+
+.searchbox {
+  background: #f7ebf3;
+}
+
+.searchbox input {
+  border: 1px solid #f78bd1;
+  border-radius: 4px;
+  color: #f78bd1;
+}
+
+.searchbox input:focus {
+  border: 1px solid #f78bd1;
+  border-radius: 4px;
+  color: #f78bd1;
+  box-shadow: none;
+}
+
+.searchbox button {
+  border: 1px solid #f78bd1;
+  border-radius: 4px;
+  font-family: "Fahkwang";
+  background-color: #f78bd1;
+  color: white;
+}
+
+.searchbox input::placeholder {
+  color: #f78bd1;
+  font-family: "Imprima";
+}

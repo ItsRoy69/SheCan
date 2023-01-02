@@ -6,6 +6,7 @@ import Edtech from './pages/Edtech'
 import UserSignIn from './pages/UserSignIn'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import MedicalSupplies from './pages/MedicalSupplies'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/donate" exact element={<Donations />} />
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
+          <Route path="/meds" exact element={<MedicalSupplies />} />
 
           {/* protected routes */}
           {/* <Route element={<Routeguard />}>
