@@ -20,42 +20,45 @@ export default function () {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {/* <span className="navbar-toggler-icon">-</span> */}
+
           <MdExpandMore />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">
+              {/* <a className="nav-link" aria-current="page" href="/">
                 Home
-              </a>
+              </a> */}
+              <Link className="nav-link" to={"/"}>
+                Home
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <Link className="nav-link" to="#services">
                 Services
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/donate">
+              <Link className="nav-link" to="/donate">
                 Donate
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/ProfSignup">
+              <Link className="nav-link" to="/ProfSignup">
                 Register as Professional
-              </a>
+              </Link>
             </li>
 
-            <li className="nav-item" style={{paddingRight: "130px"}}>
-              <a className="nav-link" href="/ProfSignup">
+            <li className="nav-item" style={{ paddingRight: "130px" }}>
+              <Link className="nav-link" to="/ProfSignup">
                 Join Us
-              </a>
+              </Link>
             </li>
 
-            
+
           </ul>
         </div>
       </div>

@@ -1,295 +1,330 @@
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap");
 
 .home-bod-first {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F7EBF3;
-    font-family: 'Fahkwang';
-    font-style: normal;
-    font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7ebf3;
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 400;
+  align-items: center;
+  padding-top: 15vh;
 }
 
 .hfl {
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    justify-content: space-around;
-    margin-top: 40vh;
-    width: 40vw;
+  display: flex;
+  flex-direction: column;
+  /* height: 40vh; */
+  justify-content: space-around;
+
+  width: 40vw;
 }
 
 .hfl img {
-    width: 300px;
-    height: auto;
-    margin-left: 0.51vw;
-    margin-top: 0vh;
+  width: 300px;
+  height: auto;
+  margin-left: 0.51vw;
+  margin-top: 0vh;
+  margin-bottom: 20px;
 }
 
 .ph {
-    width: 40vw;
-    font-size: 20px;
-    font-family: 'Imprima';
-    font-style: normal;
-    font-weight: 400;
+  width: 40vw;
+  font-size: 20px;
+  font-family: "Imprima";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .hh {
-    font-size: 40px;
-    font-weight: 700;
-    width: 35vw;
-    font-family: 'Fahkwang';
-    font-style: normal;
-    font-weight: 400;
-
+  font-size: 40px;
+  width: 35vw;
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 600;
 }
 
 .btns {
-    width: 10vw;
-    background: #F78BD1;
-    border: 1px solid #372837;
-    border-radius: 4px;
-    color: #ffffff;
-    height: 40px;
+  width: 10vw;
+  background: #f78bd1;
+  border: 1px solid #372837;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 40px;
 }
 
 .btns:hover {
-    background-color: white;
-    color: #F78BD1;
-    border: 1px solid #372837;
+  background-color: white;
+  color: #f78bd1;
+  border: 1px solid #372837;
 }
 
 .hfr {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hfr img {
-    height: auto;
-    width: 500px;
-    margin-top: 16vh;
+  height: auto;
+  width: 500px;
 }
 
 .cline {
-    width: 42vw;
-    margin-left: -40px;
+  width: 42vw;
+  margin-left: -40px;
 }
 
 .home-bod-second {
-    padding: 70px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #F7EBF3;
-    font-family: "Montserrat", sans-serif;
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7ebf3;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hs {
-    padding-bottom: 10px;
-    border-bottom: 1px solid transparent;
-    border-image: linear-gradient(270deg, rgba(52, 37, 52, 0.5) 16.67%, #342534 51.04%, rgba(52, 37, 52, 0.5) 81.77%);
-    border-image-slice: 1;
-    font-family: 'Fahkwang';
-    font-style: normal;
-    font-weight: 400;
-
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(
+    270deg,
+    rgba(52, 37, 52, 0.5) 16.67%,
+    #342534 51.04%,
+    rgba(52, 37, 52, 0.5) 81.77%
+  );
+  border-image-slice: 1;
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 600;
 }
 
 .hss {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 60px;
-
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
 }
 
 .hss-card {
-    width: 20vw;
-    height: 400px;
+  width: 20vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hss-card img {
+  width: 20vw;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.bl1 {
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 600;
+  color: #5f475f;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 5vh;
+}
+
+.bl {
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #f78bd1;
+  padding: 10px;
+  border-bottom: 1px solid #f78bd1;
+  font-family: "Fahkwang";
+  font-style: normal;
+  text-decoration: none;
+}
+
+.bl:hover {
+  padding: 10px;
+  border: 1px solid #f78bd1;
+}
+
+.home-bod-sec {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7ebf3;
+  justify-content: space-between;
+}
+
+.hfr3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hfr3 img {
+  height: auto;
+  width: 500px;
+}
+
+.home-bod-secondlast {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7ebf3;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.home-bod-last {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7ebf3;
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 10vh;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.hfl-def {
+  display: flex;
+  flex-direction: column;
+
+  width: 40vw;
+}
+
+.hfr2 img {
+  height: auto;
+  width: 500px;
+}
+
+@media (max-width: 430px) and (min-width: 0px) {
+  .hss {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-bod-first {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hh {
+    font-size: 30px;
+    font-weight: 400;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hfl {
+    height: 30vh;
+    margin-top: 20vh;
+    width: 400px;
+  }
+
+  .hfl img {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    align-self: center;
+    margin-bottom: 0px;
+  }
+
+  .ph {
+    width: 400px;
+
+    font-size: 16px;
+  }
+
+  .btns {
+    width: 200px;
+    height: 40px;
+  }
+
+  .hfr img {
+    height: auto;
+    width: 400px;
+    margin-top: 10vh;
+    padding: 20px;
+  }
+
+  .hss-card {
+    width: 15rem;
+    height: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-}
+    margin-bottom: 2rem;
+  }
 
-.hss-card img {
-    width: 20vw;
-    height: 200px;
+  .hss-card img {
+    min-width: 15rem;
+    max-width: 15rem;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
 
-}
-
-.bl1 {
-    font-family: 'Fahkwang';
-    font-style: normal;
-    font-weight: 600;
-    color: #5F475F;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-top: 5vh;
-}
-
-.bl {
-    cursor: pointer;
-    font-weight: 500;
-    text-align: center;
-    font-size: 1.1rem;
-    color: #F78BD1;
-    padding: 10px;
-    border-bottom: 1px solid #F78BD1;
-    font-family: 'Fahkwang';
-    font-style: normal;
-    text-decoration: none;
-}
-
-.bl:hover {
-    padding: 10px;
-    border: 1px solid #F78BD1;
-
-}
-
-.home-bod-sec {
-    display: flex;
-    flex-direction: row;
-    background-color: #F7EBF3;
-    justify-content: space-between;
-}
-
-.hfr3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hfr3 img {
-    height: auto;
-    width: 500px;
-}
-
-.home-bod-last {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F7EBF3;
-    font-family: 'Fahkwang';
-    font-style: normal;
+  .bl1 {
     font-weight: 400;
-}
+    font-size: 20px;
+    margin-top: 10px;
+    /* width: 120px; */
+  }
 
-.hfl-def {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20vh;
-    width: 40vw;
-}
+  .hss {
+    gap: 15px;
+    padding: 20px;
+  }
 
-.hfr2 img {
+  .bl {
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  .hfr3 img {
     height: auto;
-    width: 500px;
-}
+    width: 400px;
+    padding: 20px;
+  }
 
-@media (max-width: 430px) and (min-width: 0px) {
-    .home-bod-first{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .hfl-def {
+    margin-top: 0vh;
+    width: 400px;
+    align-items: center;
+  }
 
-    .hh {
-        font-size: 30px;
-        font-weight: 400;
-        width: 400px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .home-bod-secondlast {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 
-    .hfl {        
-        height: 30vh;
-        margin-top: 20vh;
-        width: 400px;
-    }
-    
-    .hfl img {
-        width: 250px;
-        height: auto;
-        padding: 20px;
-    }
+  .home-bod-last {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 
-    .ph {
-        width: 400px;
-        padding: 20px;
-        font-size: 16px;
-    }
-
-    .btns {
-        width: 200px;
-        height: 40px;
-    }    
-    
-    .hfr img {
-        height: auto;
-        width: 400px;
-        margin-top: 10vh;
-        padding: 20px;
-    }
-
-    .hss-card {
-        width: 120px;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-    }
-    
-    .hss-card img {
-        width: 120px;
-        height: 100px;    
-    }
-
-    .bl1 {
-        font-weight: 400;
-        font-size: 12px;
-        margin-top: 0vh;
-        width: 120px;
-    }
-
-    .hss {
-        gap: 15px;
-        padding: 20px;
-    }
-
-    .bl {       
-        font-size: 12px;
-        margin: 5px;        
-    }
-    
-    .hfr3 img {
-        height: auto;
-        width: 400px;
-        padding: 20px;
-    }
-
-    .hfl-def {
-        margin-top: 0vh;
-        width: 400px;
-        align-items: center;
-    }
-
-    .home-bod-last{
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-
-    .hfr2 img {
-        height: auto;
-        width: 400px;
-        padding: 20px;
-        margin-top: 10vh;
-    }
+  .hfr2 img {
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10vh;
+  }
 }

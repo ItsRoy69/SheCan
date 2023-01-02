@@ -1,54 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
 
 .navbar {
-    background-color:#322332 ;
-    color: #fffffff8;
-    z-index: 1
-  }
-  
-  .nav-link {
-    font-family: 'Imprima';
-    font-style: normal;
-    font-size: 16px;
-    color: #ffffff;
-    margin-right: 30px;
-    padding: 1.2rem;
-    
-  }
+  background-color: #322332;
+  color: #fffffff8;
+  z-index: 1;
+}
 
-  .nav-link::after {
-    color: #F78BD1;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    color: #F78BD1;
-    text-decoration: none;
-  }
-  
-  .navbar-brand {
-    font-style: normal;
-    font-weight: 800;
-    font-family: 'Imprima';
-    color: #ffffff;
-    padding-left: 50px;
-  }
-  
-  .navbar-brand:hover {
-    color: #F78BD1;
-  }
-  
-  .nav-btnlink {
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 16px;
-    color: #F78BD1;
-    margin-right: 30px;
-    text-transform: uppercase;
-    padding: 0rem;
-    margin-top: 8px;
-  }
+.nav-link {
+  font-family: "Imprima";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 1.2rem;
+}
 
-  /* .nav-btns {
+.nav-link::after {
+  color: #f78bd1;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #f78bd1;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Imprima";
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.navbar-brand:hover {
+  color: #f78bd1;
+}
+
+.nav-btnlink {
+  font-family: "Itim", cursive;
+  font-style: normal;
+  font-size: 16px;
+  color: #f78bd1;
+  margin-right: 30px;
+  text-transform: uppercase;
+  padding: 0rem;
+  margin-top: 8px;
+}
+
+/* .nav-btns {
     margin-right: 30px;
   } */

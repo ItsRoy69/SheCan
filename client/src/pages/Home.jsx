@@ -70,7 +70,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-bod-first">
+      <div className="home-bod-secondlast">
         <div className="hfr3">
           <img src={img4} alt="" />
         </div>
