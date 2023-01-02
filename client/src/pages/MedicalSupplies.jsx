@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/MedicalSupplies.css"
 import medsbanner from "../assets/meds/medsbanner.png"
 import Line from "../assets/meds/Line.png"
+import medicines from '../data/medicines'
 
 
 const MedicalSupplies = () => {
@@ -73,6 +74,25 @@ const MedicalSupplies = () => {
                         <input type="text" className="form-control" placeholder="Type what medicine you need and hit the enter button ! " aria-label="Recipient's username" aria-describedby="button-addon2" />
                         <button className="btn btn-outline-secondary " type="button" id="button-addon2">Search</button>
                     </div>
+                </div>
+
+
+                <div className="medicinecards_parent container">
+                    {medicines.map((medicine) => {
+                        return (
+                            <div className="medicinecard">
+                                <img src={medicine.img
+                                } alt="" />
+                                <div className="medicinecard_text">
+                                    <p>{medicine.name}</p>
+                                    <p>$ {medicine.price}</p>
+                                    <p>Available : {medicine.quantity} / 200</p>
+                                </div>
+                            </div>
+                        )
+                    })
+
+                    }
                 </div>
             </div>
 

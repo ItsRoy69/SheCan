@@ -134,3 +134,53 @@
   color: #f78bd1;
   font-family: "Imprima";
 }
+
+.medicinecards_parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.medicinecard {
+  max-width: 15rem;
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.medicinecard img {
+  max-width: 15rem;
+  min-width: 15rem;
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.medicinecard_text {
+  padding: 10px;
+  font-family: "Fahkwang";
+  color: black;
+}
+
+.medicinecard_text p {
+  margin-bottom: 5px;
+}
+
+.medicinecard_text :nth-child(1) {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* max width 430px */
+
+@media (max-width: 430px) {
+  .meds_heroheader {
+    flex-direction: column;
+  }
+}
