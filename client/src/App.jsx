@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Donations from './pages/Donations'
 import Completion from './pages/Completion'
 import Edtech from './pages/Edtech'
-import UserSignIn from './pages/UserSignIn'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import RegProf from './pages/RegProf'
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/regprof" exact element={<RegProf/>}/>
           <Route path="/donate" exact element={<Donations />} />
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
