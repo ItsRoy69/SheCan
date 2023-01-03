@@ -5,7 +5,9 @@ import Completion from './pages/Completion'
 import Edtech from './pages/Edtech'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import RegProf from './pages/RegProf'
+// import RegProf from './pages/RegProf'
+import MedicalSupplies from './pages/MedicalSupplies'
+
 
 function App() {
 
@@ -19,10 +21,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/regprof" exact element={<RegProf/>}/>
+          {/* <Route path="/regprof" exact element={<RegProf/>}/> */}
           <Route path="/donate" exact element={<Donations />} />
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
+          <Route path="/meds" exact element={<MedicalSupplies />} />
 
           {/* protected routes */}
           {/* <Route element={<Routeguard />}>

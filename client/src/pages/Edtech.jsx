@@ -45,10 +45,9 @@ const Edtech = () => {
           <div className="edtech_subparent">
             <div className="edtech_header">
               <div className="edtech_headertextdiv">
-                <h1>"No one has ever become poor by giving." </h1>
+                <h1>Educate women, change world. </h1>
                 <p>
-                  Welcome to the donations page. Whatever you edtech make goes
-                  straight into the club's fund.{" "}
+                Welcome to the edtech page, here we have courses from women safety and all the way to coding !{" "}
                 </p>
                 <button className="btns" onClick={handleScroll}>
                   Explore courses
@@ -61,7 +60,6 @@ const Edtech = () => {
             <div className="edtech_header2">
               <div className="edtech_header2textdiv">
                 <p>Some latest tech news</p>
-                <hr />
               </div>
               <Carousel
                 ref={carouselRef}
@@ -85,7 +83,6 @@ const Edtech = () => {
             <div className="edtech_header2" ref={courses}>
               <div className="edtech_header2textdiv">
                 <p>Here are some tech courses</p>
-                <hr />
               </div>
 
               <div className="edtech_coursesparent">

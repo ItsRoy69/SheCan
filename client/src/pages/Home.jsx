@@ -70,7 +70,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-bod-first">
+      <div className="home-bod-secondlast">
         <div className="hfr3">
           <img src={img4} alt="" />
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
           <button className="btns">Learn How</button>
         </div>
       </div>
-      <div className="home-bod-first">
+      <div className="home-bod-last">
         <div className="hfl-def">
           <p className="hh">Lend a Helping Hand</p>
 

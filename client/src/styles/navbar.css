@@ -1,38 +1,53 @@
-/* font-family: "Montserrat", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
 
-.navbod{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    background-color:#322332 ;
-    color: white;
-    position: fixed;
-    z-index: 1
+.navbar {
+  background-color: #322332;
+  color: #fffffff8;
+  z-index: 10;
 }
-.navleft{
-    font-family: 'Island Moments';
-    margin-left: 60px;
-    font-size: 1.6rem;
-    font-family: cursive;
+
+.nav-link {
+  font-family: "Imprima";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 1.2rem;
 }
-.navright{
-    margin-right: 145px;
-    display: flex;
-    text-align: center;
+
+.nav-link::after {
+  color: #f78bd1;
+  text-decoration: none;
 }
-.navright a{
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-family: 'Imprima';
-    font-style: normal;
-    padding: 20px;
-    padding-top: 30px;
-    text-decoration: none;
-    color: white;
+
+.nav-link:hover {
+  color: #f78bd1;
+  text-decoration: none;
 }
-.navright a:hover{
-  color: #F78BD1;
+
+.navbar-brand {
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Imprima";
+  color: #ffffff;
+  padding-left: 50px;
 }
+
+.navbar-brand:hover {
+  color: #f78bd1;
+}
+
+.nav-btnlink {
+  font-family: "Itim", cursive;
+  font-style: normal;
+  font-size: 16px;
+  color: #f78bd1;
+  margin-right: 30px;
+  text-transform: uppercase;
+  padding: 0rem;
+  margin-top: 8px;
+}
+
+/* .nav-btns {
+    margin-right: 30px;
+  } */

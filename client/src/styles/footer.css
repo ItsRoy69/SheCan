@@ -103,3 +103,16 @@ input:focus {
 .foot-btm a:hover {
     color: #F78BD1;
 }
+
+@media (max-width: 430px) and (min-width: 0px) {
+    .foot-btm {
+        display: flex;
+        gap: 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .dl {
+        width: 10vw;
+    }
+}
