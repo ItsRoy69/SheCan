@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 // import RegProf from './pages/RegProf'
 import MedicalSupplies from './pages/MedicalSupplies'
+import Faq from './pages/Faq'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/donate" exact element={<Donations />} />
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
+          <Route path="/faq" exact element={<Faq />} />
           <Route path="/meds" exact element={<MedicalSupplies />} />
 
           {/* protected routes */}

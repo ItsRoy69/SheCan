@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap");
+.help-bod{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    font-family: product;
+    gap: 20px;
+    padding-right: 40px;
+    font-family: "Fahkwang";
+    min-height: 100%;
+    width: 100%;
+    padding-top: 20px;   
+    overflow: auto;
+    max-height: 100vh;
+   
+
+}
+.help-bod::-webkit-scrollbar {
+    display: none;
+}
+.help-first{
+    margin-top: 30px;
+    height: 30vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+    padding: 0 5%;
+}
+.help-write{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+  
+    justify-content: center;
+}
+.help-write h1{
+    color: #322332;
+    
+}
+.img-bod {
+  margin-right: 40px;
+}
+.img-bod img{
+    height: 200px;
+    width: 400px;
+}
+.help-second{
+   
+   
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5%;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.help-second h1{
+    justify-self: flex-start;
+    color: #322332;
+    
+}
+.help-box{
+    height: auto;
+    width: auto;
+   
+    background-color: #f7ebf3;
+    padding: 20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(232, 204, 218) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.f-l-h{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f78bd1;
+}
+.a-c-b{
+    margin-top: 8px;
+}
