@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 // import RegProf from './pages/RegProf'
 import MedicalSupplies from './pages/MedicalSupplies'
 import Faq from './pages/Faq'
+import Dashboard from './pages/Dashboard'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
           <Route path="/faq" exact element={<Faq />} />
-          <Route path="/meds" exact element={<MedicalSupplies />} />
+          <Route path="/meds" exact element={<MedicalSupplies />} />  
+          <Route path="/dashboard" exact element={<Dashboard />} />           
 
           {/* protected routes */}
           {/* <Route element={<Routeguard />}>

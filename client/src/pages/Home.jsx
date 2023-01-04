@@ -39,7 +39,7 @@ const Home = () => {
             <p className="bl1">
               <b> Pharmacies & Other Supplies </b>
             </p>
-            <a className="bl" href="/edtech">
+            <a className="bl" href="/meds">
               <b> Explore your needs</b>
             </a>
           </div>

@@ -1,0 +1,80 @@
+.userreg-wrapper{
+    max-height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: 'Fahkwang';
+}
+.prof-reg-modal{
+    height: 100vh;
+    width: 100vw;
+    /* background:#F7EBF3; */
+    background:#ffffff24;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 100;
+}
+.form-box{
+    height:fit-content;
+    width:fit-content;
+    position: relative;
+    margin: 5rem auto;
+    border-radius: 0.9rem;
+    background:white;
+    display: flex;
+    box-shadow: 0 0 20px #3a3a3a;
+}
+#form-close-btn{
+    position: absolute;
+    top:0;
+    height: 2rem;
+    width:2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    color:white;
+    right: -2.5rem;
+}
+
+.uformimage{
+    border-radius: 0px 15px 15px 0px;
+}
+
+.form-wrapper{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+.form-wrapper h1{
+    font-size: 2rem;
+    margin:1rem;
+}
+.form-wrapper p{
+    text-align: left;
+    padding-left: 0.5rem;
+    margin: 0.5rem;
+}
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.form-wrapper form input,
+.form-wrapper form select{
+    background:#F7EBF3;
+    width: 90%;
+}
+/* hiding arrow keys */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+.form-wrapper form button{
+    padding:0.5rem 0.8rem;
+    border: 1px solid black;
+    background: #F7EBF3;
+    border-radius: 0.8rem;
+    margin:0 auto;
+}

@@ -1,0 +1,144 @@
+.dashboard_banner {
+  size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard_pp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: 110px;
+  margin-top: -50px;
+}
+
+.dashboard_info {
+  width: 300px;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard_name {
+  font-family: "Imprima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #322332;
+}
+
+.dashboard_email {
+  font-family: "Imprima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #806780;
+}
+
+.dashboard_about {
+  font-family: "Imprima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #322332;
+}
+
+.dashbtns {
+  width: 200px;
+  height: 40px;
+  background: #f78bd1;
+  border: none;
+  color: #fff;
+  font-family: "Fahkwang";
+  font-style: normal;
+}
+
+.Userboard_pencil {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.dashboard_mid {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1200px;
+}
+
+.dashboard_headtasks {
+  text-align: justify;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard_headtasks h1 {
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #322332;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.dashboard_bodytasks {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  height: 500px;
+  box-shadow: -7px -7px 9px 3px rgba(255, 255, 255, 0.3), 7px 7px 10px rgba(95, 71, 95, 0.12);
+  padding: 10px;
+  border-radius: 10px;
+  background: #F7EBF3;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.orders_parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+
+.orderscard {
+  width: 100px;
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.orderscard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.orderscard_text {
+  padding: 10px;
+  font-family: "Fahkwang";
+  color: black;
+}
+
+.orderscard_text p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.orderscard_text :nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

@@ -23,6 +23,11 @@
     display: flex;
     box-shadow: 0 0 20px #3a3a3a;
 }
+
+.formimage{
+    border-radius: 15px 0px 0px 15px;
+}
+
 #form-close-btn{
     position: absolute;
     top:0;
