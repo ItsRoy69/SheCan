@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import dashboard from "../images/dashboard.png";
 import profile from "../images/profile.png";
 
@@ -6,9 +6,25 @@ import { BsPencilSquare, BsPlusSquare, BsShop } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import medicines from "../data/medicines";
 import "../styles/dashboard.css";
+import EditProfile from "../components/EditProfile";
+import RegProf from "../components/RegProf";
 
 const Dashboard = () => {
+
+  const [editProfileOpen, setEditProfileOpen ] = useState(false);
+
+
   return (
+   <>
+    {
+      editProfileOpen ? (
+        <>
+        <EditProfile
+        setEditProfileOpen={setEditProfileOpen}/>
+        </>
+      )
+     :""
+    }
     <div className="dashboard">
       <div className="dashboard_ban">
         <img src={dashboard} alt="" className="dashboard_banner" />
@@ -25,8 +41,8 @@ const Dashboard = () => {
             A random little bio. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit.{" "}
           </p>
-          <Link to="/">
-            <button className="dashbtns">
+            <button className="dashbtns"
+             onClick={()=> setEditProfileOpen(true)}>
               <BsPencilSquare
                 className="Userboard_pencil"
                 data-bs-toggle="modal"
@@ -34,7 +50,6 @@ const Dashboard = () => {
               />
               Edit Your Profile
             </button>
-          </Link>
         </div>
         <div className="dashboard_tasks">
           <div className="dashboard_headtasks">
@@ -45,9 +60,9 @@ const Dashboard = () => {
           </div>
           <div className="dashboard_bodytasks">
             <div className="orders_parent container">
-              {medicines.map((medicine) => {
+              {medicines.map((medicine,index) => {
                 return (
-                  <div className="orderscard">
+                  <div className="orderscard" key={index}>
                     <img src={medicine.img} alt="" />
                     <div className="orderscard_text">
                       <p>{medicine.name}</p>
@@ -62,6 +77,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
+   </>
   );
 };
 

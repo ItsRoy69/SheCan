@@ -1,0 +1,77 @@
+.edit-profile-wrapper{
+    /* height: 100vh;
+    width: 100vw;*/
+    position: relative;
+    font-family: 'Fahkwang';
+}
+.edit-profile-modal{
+    height: 100vh;
+    width: 100vw;
+    /* background:#F7EBF3; */
+    background:#ffffff24;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 100;
+}
+.edit-profile-modal .form-box{
+    height:fit-content;
+    width:fit-content;
+    position: relative;
+    padding:  2rem 5rem;
+    margin: 5rem auto;
+    border-radius: 0.9rem;
+    background:white;
+    display: flex;
+    box-shadow: 0 0 20px #3a3a3a;
+}
+#form-close-btn{
+    position: absolute;
+    top:0;
+    height: 2rem;
+    width:2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    color:white;
+    right: -2.5rem;
+}
+
+
+.edit-profile-modal .form-wrapper{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+.edit-profile-modal .form-wrapper h1{
+    font-size: 2rem;
+    margin:1rem;
+}
+.edit-profile-modal .form-wrapper p{
+    text-align: left;
+    padding-left: 0.5rem;
+    margin: 0.5rem;
+}
+.edit-profile-modal .form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.edit-profile-modal .form-wrapper form input{
+    background:#F7EBF3;
+    width: 100%;
+}
+/* hiding arrow keys */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+.edit-profile-modal .form-wrapper form button{
+    padding:0.5rem 0.8rem;
+    border: 1px solid black;
+    background: #F7EBF3;
+    border-radius: 0.8rem;
+    margin:0 auto;
+}

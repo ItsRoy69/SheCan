@@ -7,7 +7,6 @@ import { useState } from 'react';
 const UserReg = ({ setUserRegModalOpen }) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [profession, setProfession] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
     const [address, setAddress] = useState("");
@@ -20,7 +19,6 @@ const UserReg = ({ setUserRegModalOpen }) => {
             body: JSON.stringify({
                 name,
                 email,
-                profession,
                 password,
                 phone,
                 address})
@@ -33,7 +31,6 @@ const UserReg = ({ setUserRegModalOpen }) => {
         else{
             setName("");
             setEmail("");
-            setProfession("");
             setPassword("");
             setPhone("");
             setAddress("");
