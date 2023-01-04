@@ -53,6 +53,15 @@
   font-size: 20px;
 }
 
+.paybuttons{
+  width: 80px;
+  background: #f78bd1;
+  border: none;
+  border-radius: none;
+  color: #ffffff;
+  height: 25px;
+}
+
 .products_bar p {
   margin-bottom: 0px;
 }
