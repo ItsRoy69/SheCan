@@ -4,12 +4,14 @@ import '../styles/editprofile.css';
 
 const EditProfile = ({setEditProfileOpen}) => {
     const [name, setName] = useState("");
+    const [imageFile, setImageFile] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
     const [address, setAddress] = useState("");
 
     const handleEditFormSubmit = (e)=>{
         e.preventDefault();
+        console.log({name,imageFile,password,phone,address});
         alert("Form submitted");
           // setName("");setPassword("");setPhone("");setAddress("");
         setEditProfileOpen(false);
@@ -32,7 +34,15 @@ const EditProfile = ({setEditProfileOpen}) => {
                                 type="text"
                                 value={name}
                                 onChange={e => setName(e.target.value)}
-                                placeholder="Enter name"
+                                placeholder="Enter new name"
+                                required />                           
+                            <input
+                                className="form-control"
+                                type="file"
+                                accept="image/x-png, image/gif, image/jpeg"
+                                value={imageFile}
+                                onChange={e => setImageFile(e.target.value)}
+
                                 required />                           
                             <input
                                 className="form-control"

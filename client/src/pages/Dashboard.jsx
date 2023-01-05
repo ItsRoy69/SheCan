@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import dashboard from "../images/dashboard.png";
 import profile from "../images/profile.png";
-
 import { BsPencilSquare, BsPlusSquare, BsShop } from "react-icons/bs";
-import { Link } from "react-router-dom";
 import medicines from "../data/medicines";
 import "../styles/dashboard.css";
 import EditProfile from "../components/EditProfile";
-import RegProf from "../components/RegProf";
+
 
 const Dashboard = () => {
 
