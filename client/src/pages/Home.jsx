@@ -78,7 +78,9 @@ const Home = () => {
           <p className="hh">Making Your Safety a Priority</p>
 
           <p className="ph">Self defense techniques and helpline numbers</p>
+          <a href="/safety">
           <button className="btns">Learn How</button>
+          </a>
         </div>
       </div>
       <div className="home-bod-last">
