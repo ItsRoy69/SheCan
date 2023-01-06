@@ -17,34 +17,21 @@ function App() {
 
   return (
     <>
-
-
-
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          {/* <Route path="/regprof" exact element={<RegProf/>}/> */}
           <Route path="/donate" exact element={<Donations />} />
           <Route path="/edtech" exact element={<Edtech />} />
           <Route path="/completion" exact element={<Completion />} />
           <Route path="/faq" exact element={<Faq />} />
           <Route path="/meds" exact element={<MedicalSupplies />} />  
           <Route path="/dashboard" exact element={<Dashboard />} />   
-          <Route path="/safety" exact element={<Safety/>}></Route>        
+          <Route path="/safety" exact element={<Safety/>}></Route>      
 
-          {/* protected routes */}
-          {/* <Route element={<Routeguard />}>
-              <Route exact path="/:username" element={<Profile />} />
-              <Route exact path="/editprofile" element={<Editprofile />} />
-
-            </Route> */}
         </Routes >
         <Footer />
       </Router >
-
-
-
     </>
   )
 }

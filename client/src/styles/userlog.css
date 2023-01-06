@@ -1,15 +1,15 @@
-.loginprof-wrapper{
+.loginuser-wrapper{
     max-height: 500px;
     width: 500px;
     position: relative;
     font-family: 'Fahkwang';
     z-index: 9;
-    top: -80vh;
-    left: -40vw;
+    top: -75vh;
+    left: -25vw;
 }
-.prof-login-modal{
-    height: -100vh;
-    width: 100vw;
+.user-login-modal{
+    height:110vh;
+    width: 110vw;
     /* background:#F7EBF3; */
     background:#ffffff24;
     backdrop-filter: blur(2px);
