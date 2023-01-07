@@ -1,0 +1,117 @@
+/* //* USER AUTH MODAL */
+
+.userauth_main {
+    position: fixed;
+    /* background-color: rgb(247, 139, 209); */
+    inset: 0;
+    /*   opacity: 30%; */
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+}
+
+.userauth_crossbtn {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    color: #fff;
+    /*   right: -2.5rem; */
+    right: 300px;
+    top: 100px;
+
+}
+
+.userauth_sub {
+    background-color: white;
+    /* width: 50vw; */
+    /*   max-height: 60vh; */
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+
+    font-family: 'Fahkwang';
+    min-height: 74vh;
+    max-height: 74vh;
+    min-width: 50vw;
+    max-width: 50vw;
+}
+
+.userauth_imgdiv img {
+    min-height: 74vh;
+    max-height: 74vh;
+}
+
+.userauth_textdiv {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    flex-direction: column;
+    min-height: 70vh;
+    max-height: 70vh;
+
+
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-from-right {
+    animation: slideInFromRight 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.userauth_formdiv {
+    margin-top: 2rem;
+    min-width: 25vw;
+    max-width: 25vw;
+}
+
+.userauth_formdiv input {
+    background: #F7EBF3;
+    margin-bottom: 20px;
+}
+
+.userauth_btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userauth_btndiv button {
+    background: #F7EBF3;
+    border: 1px solid #372837;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.userauth_btndiv button:hover {
+    background: #372837;
+    color: white;
+}
+
+.userauth_btndiv p span {
+    text-decoration: underline;
+    color: cadetblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* //* PROF AUTH MODAL */

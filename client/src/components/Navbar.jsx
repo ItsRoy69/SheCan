@@ -4,12 +4,13 @@ import { MdExpandMore } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import { useState } from "react";
-import RegProf from "./RegProf";
-import UserReg from "./UserReg";
+import { useSheModal } from "../context/sheContext";
+
 
 export default function () {
-  const [regModalOpen, setRegModalOpen] = useState(false);
-  const [userRegModalOpen, setUserRegModalOpen] = useState(false);
+
+  const { setopenauthmodal, setisuser } =
+    useSheModal();
 
   return (
     <>
@@ -52,14 +53,24 @@ export default function () {
                 </Link>
               </li>
 
-              <li className="nav-item" onClick={() => setRegModalOpen(true)}>
+              <li className="nav-item" onClick={() => {
+                setopenauthmodal(true)
+                document.body.classList.add("fixed");
+
+                setisuser(false)
+              }} >
                 <Link className="nav-link">Register as Professional</Link>
               </li>
 
               <li
                 className="nav-item"
-                onClick={() => setUserRegModalOpen(true)}
+
                 style={{ paddingRight: "130px" }}
+                onClick={() => {
+                  setopenauthmodal(true)
+                  document.body.classList.add("fixed");
+                  setisuser(true)
+                }}
               >
                 <Link className="nav-link">Join Us</Link>
               </li>
@@ -67,7 +78,7 @@ export default function () {
           </div>
         </div>
       </nav>
-      {regModalOpen ? (
+      {/*  {regModalOpen ? (
         <RegProf
           regModalOpen={regModalOpen}
           setRegModalOpen={setRegModalOpen}
@@ -82,7 +93,7 @@ export default function () {
         />
       ) : (
         ""
-      )}
+      )} */}
     </>
   );
 }
