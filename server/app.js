@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const corsOptions = {
-  origin: "http://localhost:3000", //included origin as true
+  origin: "https://shecan.vercel.app", //included origin as true
   credentials: true, //included credentials as true
 };
 app.use(cors(corsOptions));
