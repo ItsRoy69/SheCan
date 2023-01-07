@@ -82,9 +82,9 @@
     max-width: 25vw;
 }
 
-.userauth_formdiv input {
+.userauth_formdiv input, .userauth_formdiv select {
     background: #F7EBF3;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .userauth_btndiv {
