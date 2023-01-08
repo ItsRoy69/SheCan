@@ -6,7 +6,7 @@ import { useSheModal } from "../../context/sheContext";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { validateForm } from "../../utils/validation";
-import { ProfLogin, ProfRegister } from "../../api/Auth";
+import { ProfLogin, ProfRegister, CustomerRegister, CustomerLogin } from "../../api/Auth";
 import { useNavigate } from "react-router-dom";
 import { showErrorToast, showSuccessToast } from "../../utils/toastmessage";
 

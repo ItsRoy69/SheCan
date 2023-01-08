@@ -40,6 +40,10 @@ export const validateForm = (creds, isuserreg, isprofreg) => {
       errors.address = "Address is required";
     }
 
+    // if (!profession) errors.profession = "Profession is required";
+  }
+
+  if (!isuserreg && isprofreg) {
     if (!profession) errors.profession = "Profession is required";
   }
 
