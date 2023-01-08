@@ -9,14 +9,14 @@ function Payment() {
     const [clientSecret, setClientSecret] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:8000/payment/config").then(async (r) => {
+        fetch("https://shecan-production.up.railway.app/payment/config").then(async (r) => {
             const { publishableKey } = await r.json();
             setStripePromise(loadStripe(publishableKey));
         });
     }, []);
 
     useEffect(() => {
-        fetch("http://localhost:8000/payment/create-payment-intent", {
+        fetch("https://shecan-production.up.railway.app/payment/create-payment-intent", {
             method: "POST",
             body: JSON.stringify({}),
         }).then(async (result) => {

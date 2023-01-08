@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { showErrorToast } from "../utils/toastmessage";
 
-const API = "http://localhost:8000";
+const API = "https://shecan-production.up.railway.app";
 
 export const ProfRegister = async (creds) => {
   try {
