@@ -79,8 +79,23 @@ const AuthModal = () => {
       } else {
         if (isuserreg) {
           // user register
+          const response = await CustomerRegister(creds);
+          if (response.status === 201) {
+            toast.success(response.data.message);
+            changeauthtype();
+          }
         } else {
           // user login
+          const response = await CustomerLogin(creds);
+          if (response.status === 201) {
+            showSuccessToast(
+              response.data.message,
+              setopenauthmodal,
+              setisprofreg,
+              setisuserreg,
+              navigate
+            );
+          }
         }
       }
     }

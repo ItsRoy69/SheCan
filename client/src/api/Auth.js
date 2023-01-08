@@ -28,3 +28,27 @@ export const ProfLogin = async (creds) => {
     }
   }
 };
+
+export const CustomerRegister = async (creds) => {
+  try {
+    const response = await Axios.post(`${API}/customer/register`, creds);
+    return response;
+  } catch (error) {
+    console.log(error);
+    if (error.response.status === 409) {
+      showErrorToast(error.response.data.message);
+    }
+  }
+};
+
+export const CustomerLogin = async (creds) => {
+  try {
+    const response = await Axios.post(`${API}/customer/login`, creds);
+    return response;
+  } catch (error) {
+    console.log(error);
+    if (error.response.status === 401) {
+      showErrorToast(error.response.data.message);
+    }
+  }
+};
