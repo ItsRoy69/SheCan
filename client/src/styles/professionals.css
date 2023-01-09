@@ -1,68 +1,97 @@
-.professionals-wrapper{
+.professionals-wrapper {
     min-height: 100vh;
     /* width: auto; */
     padding-top: 30vh;
     background-color: #F7EBF3;
 }
 
-.professionals-wrapper h1{
+.professionals-wrapper h1 {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Fahkwang';
     font-style: normal;
     text-align: center;
-  }
-  
-.professionals-wrapper>p{
+}
+
+.professionals-wrapper>p {
     font-size: 20px;
     font-family: 'Imprima';
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    margin:2rem 0;
+    margin: 2rem 0;
 }
-.professional-container{
-    min-height:fit-content;
+
+.professional-container {
+    min-height: 100vh;
     margin: 0 auto;
     /* background-color:white; */
     margin-bottom: 2rem;
 }
-.professional-container select{
-    width:25rem;
-    margin:1rem auto;
+
+.professional-container select {
+    width: 25rem;
+    margin: 1rem auto;
 }
-.professionals-flexbox{
+
+.professionals-flexbox {
     min-height: fit-content;
     padding: 1rem;
-    /* background:seagreen; */
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
 }
-.nothing-to-show{
+
+.nothing-to-show {
     text-align: center;
-    margin:1rem 0;
+    margin: 1rem 0;
 }
+
 /* card for professional */
-.professional-card{
+.professional-card {
+    min-height: 26rem;
+    width: 16rem;
+    background-color: #f0f8ffc1;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.professional-card img {
     height: 15rem;
-    width: 20rem;
-    padding-top: 1rem;
-    background: #FFE9F7;
-    border: 1px solid #332433;
-}
-.professional-card p{
-    color:#9747FF;
-    font-size: 1.1rem;
-    text-align: left;
-    padding:0.2rem 1rem;
-}
-.professional-card span{
-    color:#332433;
+    width: 15rem;
+    border-radius: 0.8rem 0.8rem 0 0;
 }
 
-@media screen and (max-width:700px){
+.details-container {
+    padding: 0.5rem 1rem;
+}
 
+.professional-card p {
+    color: #9747FF;
+    margin: 0.2rem;
+    font-size: 1rem;
+}
+.professional-card span {
+    color: #332433;
+}
+
+@media screen and (max-width:600px) {
+    .professional-card {
+        width: 15rem;
+        gap: 0.5rem;
+    }
+    
+    .professional-card img {
+        height: 15rem;
+        width: 15rem;
+    }
+    .professional-card p {
+        font-size: 0.9rem;
+    }
 }
