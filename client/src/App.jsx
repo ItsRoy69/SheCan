@@ -11,6 +11,7 @@ import Faq from './pages/Faq'
 import Dashboard from './pages/Dashboard'
 import Safety from './pages/Safety';
 import { SheProvider } from './context/sheContext'
+import Professionals from './pages/Professionals'
 
 
 
@@ -32,7 +33,7 @@ function App() {
             <Route path="/meds" exact element={<MedicalSupplies />} />
             <Route path="/dashboard" exact element={<Dashboard />} />
             <Route path="/safety" exact element={<Safety />}></Route>
-
+            <Route path="/professionals" exact element={<Professionals/>}></Route>
           </Routes >
           <Footer />
         </Router >

@@ -8,7 +8,7 @@ const corsOptions = {
   credentials: true, //included credentials as true
 };
 const corsOptionsdev = {
-  origin: "https://shecan.vercel.app", //included origin as true
+  origin: ["https://shecan.vercel.app","http://localhost:3000"], //included origin as true
   credentials: true, //included credentials as true
 };
 

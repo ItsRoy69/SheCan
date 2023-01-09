@@ -1,0 +1,68 @@
+.professionals-wrapper{
+    min-height: 100vh;
+    /* width: auto; */
+    padding-top: 30vh;
+    background-color: #F7EBF3;
+}
+
+.professionals-wrapper h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Fahkwang';
+    font-style: normal;
+    text-align: center;
+  }
+  
+.professionals-wrapper>p{
+    font-size: 20px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin:2rem 0;
+}
+.professional-container{
+    min-height:fit-content;
+    margin: 0 auto;
+    /* background-color:white; */
+    margin-bottom: 2rem;
+}
+.professional-container select{
+    width:25rem;
+    margin:1rem auto;
+}
+.professionals-flexbox{
+    min-height: fit-content;
+    padding: 1rem;
+    /* background:seagreen; */
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nothing-to-show{
+    text-align: center;
+    margin:1rem 0;
+}
+/* card for professional */
+.professional-card{
+    height: 15rem;
+    width: 20rem;
+    padding-top: 1rem;
+    background: #FFE9F7;
+    border: 1px solid #332433;
+}
+.professional-card p{
+    color:#9747FF;
+    font-size: 1.1rem;
+    text-align: left;
+    padding:0.2rem 1rem;
+}
+.professional-card span{
+    color:#332433;
+}
+
+@media screen and (max-width:700px){
+
+}

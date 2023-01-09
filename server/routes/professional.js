@@ -122,8 +122,8 @@ router.get("/get-professional/:id", async (req, res) => {
   }
 });
 
-router.get("/get-professional-by-profession", async (req, res) => {
-  const profession = req.body.profession;
+router.get("/get-professional-by-profession/:profession", async (req, res) => {
+  const profession = req.params.profession;
   try {
     if (!profession) {
       res
