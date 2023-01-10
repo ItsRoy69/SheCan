@@ -27,7 +27,8 @@ const Professionals = () => {
     // fetch instructors
     const fetchInstructors = async () => {
         try {
-            const res = await axios.get("http://localhost:8000/professional/get-professional-by-profession/instructor");
+            // const res = await axios.get("http://localhost:8000/professional/get-professional-by-profession/instructor");
+            const res = await axios.get(`${url}/professional/get-professional-by-profession/instructor`);
             if (res.status === 200) {
                 setProfessionalsArr(res.data.Professionals);
             }
