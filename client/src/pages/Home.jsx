@@ -61,7 +61,7 @@ const Home = () => {
               <p className="bl1">
                 <b>Consult with doctors & gynecologists</b>
               </p>
-              <a className="bl" href="/edtech">
+              <a className="bl" href="/professionals">
                 <b> Get online consultation</b>
               </a>
             </div>
